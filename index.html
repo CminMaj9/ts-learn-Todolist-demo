@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    ul { list-style: none; padding: 0; }
+    li { margin: 10px 0; }
+    .completed { text-decoration: line-through; color: gray; }
+  </style>
+</head>
+<body>
+  <h1>待办事项清单</h1>
+  <input type="text" id="taskInput" placeholder="输入新任务">
+  <button onclick="addTodo()">添加</button>
+  <ul id="todoList"></ul>
+
+  <script src="dist/index.js"></script>
+</body>
+</html>
